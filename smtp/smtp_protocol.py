@@ -1,0 +1,14 @@
+# Ayala Aftergut
+PORT = 25
+
+SMTP_SERVICE_READY = "220"
+REQUESTED_ACTION_COMPLETED = "250"
+COMMAND_SYNTAX_ERROR = "500"
+AUTH_INPUT = "334"
+AUTH_SUCCESS = "235"
+INCORRECT_AUTH = "535"
+ENTER_MESSAGE = "354"
+# The combination of chars indicates email end
+EMAIL_END = "\r\n.\r\n"
+
+GOODBYE = "221"
